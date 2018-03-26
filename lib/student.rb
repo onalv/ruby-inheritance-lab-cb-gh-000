@@ -3,7 +3,7 @@ class Student < User
     @knowledge = []
   end
 
-  def learn
-    
+  def learn(topic)
+    self.knowledge << topic
   end
 end
